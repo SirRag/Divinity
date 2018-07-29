@@ -9,9 +9,9 @@ namespace Divinity.Items.Sanchezium
 	{
 		public override void SetStaticDefaults()
 		{
+            DisplayName.SetDefault("Sanchezium Pickaxe");
 			Tooltip.SetDefault("");
 		}
-
 		public override void SetDefaults()
 		{
 			item.damage = 27;
@@ -19,7 +19,7 @@ namespace Divinity.Items.Sanchezium
 			item.width = 34;
 			item.height = 34;
 			item.useTime = 15;
-			item.useAnimation = 10;
+			item.useAnimation = 18;
 			item.pick = 190;
 			item.useStyle = 1;
 			item.knockBack = 6;

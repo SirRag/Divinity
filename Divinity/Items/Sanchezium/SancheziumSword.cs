@@ -16,8 +16,8 @@ namespace Divinity.Items.Sanchezium
 			item.melee = true;
 			item.width = 80;
 			item.height = 80;
-			item.useTime = 12;
-			item.useAnimation = 12;
+			item.useTime = 15;
+			item.useAnimation = 15;
 			item.useStyle = 1;
 			item.knockBack = 8;
 			item.value = 10000;
