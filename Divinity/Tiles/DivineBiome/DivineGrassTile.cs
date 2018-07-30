@@ -13,7 +13,8 @@ namespace Divinity.Tiles.DivineBiome
         {
             Main.tileSolid[Type] = true;
             AddMapEntry(new Color(250, 100, 100));
-            Main.tileMerge[Type][mod.TileType("DivineDirtTile")] = true;
+            Main.tileMerge[mod.TileType("DivineDirtTile")][Type] = true;
+            Main.tileMerge[mod.TileType("DivineGrassTile")][Type] = true;
         }
         public override int SaplingGrowthType(ref int style)
         {

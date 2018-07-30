@@ -12,6 +12,7 @@ namespace Divinity.Tiles.DivineBiome
         {
             Main.tileSolid[Type] = true;
             Main.tileMergeDirt[Type] = true;
+            Main.tileMerge[mod.TileType("DivineGrassTile")][Type] = true;
             dustType = 53;
             soundType = 0;
             soundStyle = 2;
